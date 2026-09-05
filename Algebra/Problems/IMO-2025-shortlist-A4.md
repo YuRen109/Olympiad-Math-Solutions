@@ -27,8 +27,15 @@ We say that $f$ is *unbounded* if for each nonnegative integer $N$, there exists
 2. By the unboundedness of $f$, if we determine its function values from small integers to large ones,
    we always get one whose function value is greater those of the determined small integers.
    Then we pick it and call it **a representative nonnegative integer**.
-3. After picking all representative integers, we start to study **the gaps between adjacent representatives**.
-4. Finally, we may find **the gap lengths keep constant** for sufficiently large adjacent representatives.
+3. After picking all representative integers, 
+   we may think about **the function values of the points inside each gap between adjacent representatives**.  
+   It is not hard to find out that these values have a pattern similar to a previous segment. This is because of the additivity of $f$.It is not hard to find out that these values have a pattern similar to a previous segment.
+   This is because of the additivity of $f$.
+   This is where we see an arithmetic progression comes.  
+4. We start to study **the gap lengths between adjacent representatives**.
+   
+   
+5. Finally, we may find **the gap lengths keep constant** for sufficiently large adjacent representatives.
    Therefore, we complete the proof.
 
 # Solution
@@ -179,7 +186,7 @@ However, this implies that there is some $i^\star \in \text{ℕ}$ such that
 
 $$f(a_{n_{1}}) - f(a_{n_{0}}) > f(a_{n_{2}}) - f(a_{n_{1}}) > \cdots > 0 > f(a_{n_{i^\star + 1}}) - f(a_{n_{i^\star}}) > \cdots,$$  
 
-a contradiction. 
+or $f(a_{n_{i^\star + 1}}) < f(a_{n_{i^\star}})$, a contradiction. 
 
 Hence, there exists $l \in \text{ℕ}$ such that 
 for each $i \in \text{ℕ}$ with $i > l$ we have  
@@ -221,3 +228,7 @@ $$f(Ax + B) = f(a_l + x(a_{l+1} - a_l)) = f(a_{l+x}) = f(a_l) + x \left[ f(a_{l+
 for all $x \in \text{ℤ}\_{\geq 0}$.
 
 # What I Learned
+
+This is a constructive proof that was figured out by depicting graphs and reasoning on them.  
+
+I got the conclusion in a visualized way at first, and then derived it in logic languages.
