@@ -29,11 +29,9 @@ We say that $f$ is *unbounded* if for each nonnegative integer $N$, there exists
    Then we pick it and call it **a representative nonnegative integer**.
 3. After picking all representative integers, 
    we may think about **the function values of the points inside each gap between adjacent representatives**.  
-   It is not hard to find out that these values have a pattern similar to a previous segment. This is because of the additivity of $f$.It is not hard to find out that these values have a pattern similar to a previous segment.
-   This is because of the additivity of $f$.
-   This is where we see an arithmetic progression comes.  
-4. We start to study **the gap lengths between adjacent representatives**.
-   
+   It is not hard to find out that these values have a pattern similar to a previous segment. This is because of the additivity of $f$.  
+   This is because of the additivity of $f$, and also, this is where we see an arithmetic progression comes.  
+4. We start to study **the gap lengths between adjacent representatives**.  
    
 5. Finally, we may find **the gap lengths keep constant** for sufficiently large adjacent representatives.
    Therefore, we complete the proof.
