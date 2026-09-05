@@ -221,7 +221,7 @@ $$
 
 Then 
 
-$$f(Ax + B) = f(a_l + n(a_{l+1} - a_l)) = f(a_{l+n}) = f(a_l) + n \left[ f(a_{l+1}) - f(a_{l}) \right] = Cn + D$$
+$$f(An + B) = f(a_l + n(a_{l+1} - a_l)) = f(a_{l+n}) = f(a_l) + n \left[ f(a_{l+1}) - f(a_{l}) \right] = Cn + D$$
 
 for all $n \in \text{ℤ}\_{\geq 0}$.
 
