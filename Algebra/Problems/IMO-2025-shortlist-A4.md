@@ -200,13 +200,13 @@ By [Claim 4](#claim4) we may find $l \in \text{ℕ}$ such that
 
 $$a_{l+1} - a_{l} = a_{l+2} - a_{l+1} = \cdots,$$
 
-or $a_{l+x} = a_l + x (a_{l+1} - a_{l})$ for all $x \in \text{ℤ}\_{\geq 0}$.
+or $a_{l+n} = a_l + n (a_{l+1} - a_{l})$ for all $n \in \text{ℤ}\_{\geq 0}$.
 
 And we also have 
 
 $$ f(a_{l+1}) - f(a_{l}) = f(a_{l+2}) - f(a_{l+1}) = \cdots,$$
 
-or $f(a_{l+x}) = f(a_l) + x \left[ f(a_{l+1}) - f(a_{l}) \right]$.
+or $f(a_{l+n}) = f(a_l) + n \left[ f(a_{l+1}) - f(a_{l}) \right]$.
 
 Let
 
@@ -221,9 +221,9 @@ $$
 
 Then 
 
-$$f(Ax + B) = f(a_l + x(a_{l+1} - a_l)) = f(a_{l+x}) = f(a_l) + x \left[ f(a_{l+1}) - f(a_{l}) \right] = C + Dx$$
+$$f(Ax + B) = f(a_l + n(a_{l+1} - a_l)) = f(a_{l+n}) = f(a_l) + n \left[ f(a_{l+1}) - f(a_{l}) \right] = Cn + D$$
 
-for all $x \in \text{ℤ}\_{\geq 0}$.
+for all $n \in \text{ℤ}\_{\geq 0}$.
 
 # What I Learned
 
