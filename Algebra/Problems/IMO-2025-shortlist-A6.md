@@ -328,8 +328,11 @@ By [Claim 7](#claim7) and [Claim 8](#claim8) the proof is complete.
 $\square$  
 
 By [Claim 3](#claim3) and [Claim 9](#claim9) we conclude that 
-the only possible solution is $a_{n+1} = a_n + 1$ for all $n \in \text{ℕ}$ (with $a_1 \in \text{ℕ}$), or
-$a_n = n + c$ for some $c \in \text{ℕ}$.  
+the only possible solution is $a_{n+1} = a_n + 1$ (with $a_1 \in \text{ℕ}$), or  
+
+$$a_n = n + c$$
+
+where $c \in \text{ℕ}$, for all $n \in \text{ℕ}$.
 
 # What I Learned
 1. [Bézout's identity](https://en.wikipedia.org/wiki/B%C3%A9zout%27s_identity)
