@@ -228,5 +228,4 @@ for all $n \in \text{ℤ}\_{\geq 0}$.
 # What I Learned
 
 This is a constructive proof that was figured out by depicting graphs and reasoning on them.  
-
 I got the conclusion in a visualized way at first, and then derived it in logic languages.
