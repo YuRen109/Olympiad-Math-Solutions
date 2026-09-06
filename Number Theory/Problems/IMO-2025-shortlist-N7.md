@@ -2,7 +2,7 @@
 Let $\text{ℤ}\_{> 0}$ denote the set of positive integers.  
 A function $f:\text{ℤ}\_{> 0} \to \text{ℤ}\_{> 0}$ is said to be *bonza* if
 
-$$ f(a) \text{                divides  } b^a - f(b)^{f(a)}$$
+$$ f(a) \text{  divides  } b^a - f(b)^{f(a)}$$
 
 for all positive integers $a$ and $b$.  
 Determine the smallest constant $c$ such that $f(n) \leq cn$ for any bonza function $f$ and any positive integer $n$.
