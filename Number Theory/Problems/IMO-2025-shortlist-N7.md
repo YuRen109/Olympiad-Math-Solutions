@@ -9,14 +9,10 @@ Determine the smallest constant $c$ such that $f(n) \leq cn$ for any bonza funct
 
 # Source
 
-[BMO2 1995 Problems](https://bmos.ukmt.org.uk/home/bmo2-1995.pdf)
+[IMO 2025 Problems](https://www.imo-official.org/problems/2025/)
 
 # Key Idea
 
-1. Fix the order of $a,b,c$ since this is a symmetric proposition.  
-2. Find the boundary of $a$, the smallest number of $a,b,c$.  
-3. For each possible $a$, find the boundary of $b$, the smaller number of $b,c$.  
-4. For each possible $a,b$, calculate $c$ and see if it is a positive integer.  
 
 # Solution
 
