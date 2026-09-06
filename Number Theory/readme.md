@@ -18,3 +18,5 @@
 
 
 ★★★★★  
+
+[IMO-2025-shortlist-N7](./Problems/IMO-2025-shortlist-N7.md)
